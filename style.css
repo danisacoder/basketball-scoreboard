@@ -1,0 +1,53 @@
+#scoreboard {
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+h2 {
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+.score-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.score-panel {
+    background-color: #080001;
+    height: 120px;
+    width: 155px;
+    display: flex;
+}
+
+.score {
+    color: #F94F6D;
+    margin: auto;
+    font-size: 80px;
+}
+
+.score-button {
+    border: 1px solid white;
+    height: 45px;
+    width: 45px;
+    margin: auto;
+    display: flex;
+}
+
+.score-button h4 {
+    /* border: 1px solid pink; */
+    margin: auto;
+}
+
+.score-increment-section {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+}
